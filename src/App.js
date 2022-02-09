@@ -1,6 +1,13 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+
 function App() {
   return (
-    <h1>Some title</h1>
+    <div>
+      <Navbar />
+      <Main />
+    </div>
   );
 }
 
